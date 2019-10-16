@@ -1,0 +1,9 @@
+header {
+    background-color: aquamarine
+}
+header h1 {
+        color: white;
+}
+header li {
+    list-style-type: none;
+}
