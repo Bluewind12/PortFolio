@@ -7,8 +7,8 @@
 /*Header*/
 
 header {
-    background-color: aquamarine;
-    color: white;
+    background-color: white;
+    color: gray;
     width: 100%;
 }
 
@@ -20,21 +20,33 @@ header h1 {
 
 header ul {
     float: right;
+    line-height: 40px;
 }
 
-header li {
+header li a {
     line-height: 20px;
     list-style-type: none;
+    color: gray;
+    text-decoration: none;
     float: left;
-    padding: 8px;
+    padding: 16px;
     font-size: 12px;
+}
+
+.now-page a {
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .menu {
     display: none;
-    color: white;
-    text-decoration: none;
     float: right;
+}
+
+.fa-bars {
+    color: gray;
+    text-decoration: none;
     padding: 8px;
     font-size: 24px;
 }
