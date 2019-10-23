@@ -1,0 +1,17 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .main {
+        text-align: center;
+    }
+    
+    .sky-img {
+        height: 200px;
+        width: 100%;
+    }
+    
+    .title-text {
+        top: 50px;
+    }
