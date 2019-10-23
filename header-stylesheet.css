@@ -64,27 +64,3 @@
     .clear {
         clear: left;
     }
-    /* �t�b�_�[ */
-    
-    footer {
-        position: absolute;
-        bottom: 0px;
-        background-color: darkcyan;
-        width: 100%;
-        color: white;
-        padding: 10px 0;
-    }
-    
-    footer h4 {
-        padding: 0 8px;
-    }
-    /* ��ňړ� */
-    
-    @media(max-width:670px) {
-        header ul {
-            display: none;
-        }
-        .menu {
-            display: block;
-        }
-    }
