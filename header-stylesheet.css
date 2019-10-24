@@ -53,7 +53,7 @@
         clear: left;
     }
     
-    #menu-icon {
+    .fa-bars {
         float: right;
         color: white;
         font-size: 24px;
@@ -80,7 +80,7 @@
     }
     
     @media screen and (max-width:670px) {
-        #menu-icon {
+        .fa-bars {
             color: white;
             font-size: 24px;
             display: block;
