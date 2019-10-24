@@ -61,6 +61,23 @@
         display: none;
     }
     
+    .header-menus {
+        padding: 8px;
+        clear: left;
+        background-color: gray;
+        display: none;
+    }
+    
+    .header-menus li {
+        text-align: center;
+    }
+    
+    .header-menus a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    
     @media screen and (max-width:670px) {
         #menu-icon {
             display: block;
