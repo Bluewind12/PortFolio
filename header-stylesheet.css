@@ -53,19 +53,20 @@
         clear: left;
     }
     
-    #menu-icon {
+    .fa-bars {
         float: right;
         color: white;
-        padding: 16px;
         font-size: 24px;
+        padding: 16px 8px;
         display: none;
     }
     
     .header-menus {
-        padding: 8px;
+        padding: 8px 0;
         clear: left;
         background-color: gray;
         display: none;
+        width: 100%;
     }
     
     .header-menus li {
@@ -79,7 +80,9 @@
     }
     
     @media screen and (max-width:670px) {
-        #menu-icon {
+        .fa-bars {
+            color: white;
+            font-size: 24px;
             display: block;
         }
         header ul {

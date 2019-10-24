@@ -4,78 +4,97 @@
 <head>
     <meta http-equiv="content-type" charset="utf-8">
     <title>蒼風百々のポートフォリオ</title>
-    <link rel="stylesheet" href="header-stylesheet.css">
-    <link rel="stylesheet" href="footer-stylesheet.css">
-    <link rel="stylesheet" href="works-stylesheet.css">
+    <link rel="stylesheet" href="./header-stylesheet.css">
+    <link rel="stylesheet" href="./footer-stylesheet.css">
+    <link rel="stylesheet" href="./works-stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 </head>
 
-<header>
-    <h1>ももさんのポートフォリオ的な。</h1>
-    <ul>
-        <li><a href="./main-page.html">Top</a></li>
-        <li><a href="./profile-page.html">Profile</a></li>
-        <li class="now-page"><a href="./works-page.html">Works</a></li>
-        <li><a href="./contact-page.html">Contact</a></li>
-    </ul>
-    <div class="clear"></div>
-</header>
-<div class="main-title">今まで作ったやつ</div>
-<div class="main-container">
-    <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.speedselector">
-        <img src="./app-icon/sp-se.png" alt="">
-        <div class="app-texts">
-            <div class="app-title">スピセレ</div>
-            <div>処女作</div>
-        </div>
-    </a>
-    <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.mahjongg_tools">
-        <img src="./app-icon/m-tool.png" alt="">
-        <div class="app-texts">
-            <div class="app-title">麻雀管理</div>
-            <div>自分用に作ったらなんか伸びた</div>
-        </div>
+<body>
+    <header>
+        <h1>的な。</h1>
+        <ul>
+            <li><a href="./main-page.html">Top</a></li>
+            <li><a href="./profile-page.html">Profile</a></li>
+            <li class="now-page"><a href="./works-page.html">Works</a></li>
+            <li><a href="./contact-page.html">Contact</a></li>
+        </ul>
+        <i class="fas fa-bars"></i>
+        <div class="clear"></div>
+    </header>
 
-    </a>
-    <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.contactlensmanage">
-        <img src="./app-icon/conmane.png" alt="">
-        <div class="app-texts">
-            <div class="app-title">コンタクト</div>
-            <div>コンタクト使ってる人に聞きつつ作るなど。</div>
-        </div>
-    </a>
-    <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.pokertools">
-        <img src="./app-icon/p-tool.png" alt="">
-        <div class="app-texts">
-            <div class="app-title">ポーカー</div>
-            <div>伸びないだろと思いながら作ったら案の定</div>
-        </div>
-    </a>
-    <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.recordapplication">
-        <img src="./app-icon/memo-dic.png" alt="">
-        <div class="app-texts">
-            <div class="app-title">日記</div>
-            <div>Room(DB)を使って見るための実験作</div>
-        </div>
-    </a>
-    <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.mahjongrecorder">
-        <img src="./app-icon/m-rec.png" alt="">
-        <div class="app-texts">
-            <div class="app-title">記録表</div>
-            <div>日記の改良版。グラフとか使ってみた</div>
-        </div>
-    </a>
-    <a class="container container-last" href="https://play.google.com/store/apps/details?id=momonyan.ideasharing">
-        <img src="./app-icon/i-share.png" alt="">
-        <div class="app-texts">
-            <div class="app-title">アイシェア</div>
-            <div>FireBaseを使って見るための実験作</div>
-        </div>
-    </a>
-</div>
+    <div class="header-menus">
+        <ul>
+            <li><a href="./main-page.html">Top</a></li>
+            <li><a href="./profile-page.html">Profile</a></li>
+            <li><a href="./works-page.html">Works</a></li>
+            <li><a href="./contact-page.html">Contact</a></li>
+        </ul>
+    </div>
 
-<footer>
-    <h4>幻想乃桜工房
-    </h4>
-</footer>
+
+    <div class="main-title">今まで作ったやつ</div>
+    <div class="main-container">
+        <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.speedselector">
+            <img src="./app-icon/sp-se.png" alt="">
+            <div class="app-texts">
+                <div class="app-title">スピセレ</div>
+                <div>処女作</div>
+            </div>
+        </a>
+        <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.mahjongg_tools">
+            <img src="./app-icon/m-tool.png" alt="">
+            <div class="app-texts">
+                <div class="app-title">麻雀管理</div>
+                <div>自分用に作ったらなんか伸びた</div>
+            </div>
+
+        </a>
+        <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.contactlensmanage">
+            <img src="./app-icon/conmane.png" alt="">
+            <div class="app-texts">
+                <div class="app-title">コンタクト</div>
+                <div>コンタクト使ってる人に聞きつつ作るなど。</div>
+            </div>
+        </a>
+        <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.pokertools">
+            <img src="./app-icon/p-tool.png" alt="">
+            <div class="app-texts">
+                <div class="app-title">ポーカー</div>
+                <div>伸びないだろと思いながら作ったら案の定</div>
+            </div>
+        </a>
+        <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.recordapplication">
+            <img src="./app-icon/memo-dic.png" alt="">
+            <div class="app-texts">
+                <div class="app-title">日記</div>
+                <div>Room(DB)を使って見るための実験作</div>
+            </div>
+        </a>
+        <a class="container" href="https://play.google.com/store/apps/details?id=momonyan.mahjongrecorder">
+            <img src="./app-icon/m-rec.png" alt="">
+            <div class="app-texts">
+                <div class="app-title">記録表</div>
+                <div>日記の改良版。グラフとか使ってみた</div>
+            </div>
+        </a>
+        <a class="container container-last" href="https://play.google.com/store/apps/details?id=momonyan.ideasharing">
+            <img src="./app-icon/i-share.png" alt="">
+            <div class="app-texts">
+                <div class="app-title">アイシェア</div>
+                <div>FireBaseを使って見るための実験作</div>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <h4>幻想乃桜工房
+        </h4>
+    </footer>
+
+    <script src="./js/header_menu.js"></script>
+
+</body>
 
 </html>
