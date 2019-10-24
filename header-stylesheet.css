@@ -49,18 +49,23 @@
         text-decoration: underline;
     }
     
-    .menu {
-        display: none;
-        float: right;
-    }
-    
-    .fa-bars {
-        color: gray;
-        text-decoration: none;
-        padding: 8px;
-        font-size: 24px;
-    }
-    
     .clear {
         clear: left;
+    }
+    
+    #menu-icon {
+        float: right;
+        color: white;
+        padding: 16px;
+        font-size: 24px;
+        display: none;
+    }
+    
+    @media screen and (max-width:670px) {
+        #menu-icon {
+            display: block;
+        }
+        header ul {
+            display: none;
+        }
     }
