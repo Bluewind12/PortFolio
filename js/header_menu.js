@@ -1,5 +1,5 @@
 $(function() {
-    $(".fa-bars").click(function() {
+    $("#menu-icon").click(function() {
         if ($(this).hasClass("open")) {
             $(".header-menus").slideUp();
             $(this).removeClass("open");
